@@ -37,10 +37,16 @@ Possible Options:
 ```html
 python manage.py get_indexed_data --input_file=assets/reviews_data.json
 ```
+
 8. run: python manage.py runserver. You will see something with your machine ip and port number
    ```html
     http://192.168.0.1:8000/
    ```
+   api end-point:
+    ```html
+    /api/v1/search/
+   ```
+   
 9. Query an input either in raw or html form, something like
     ```html
     cat, processed, bad, good 
@@ -87,5 +93,4 @@ python manage.py get_indexed_data --input_file=assets/reviews_data.json
         "review/score": "5.0",
         "review/text": "Half my family is from the Maple Syrup State of Vermont, so I've had a lot of good maple syrup in my time.  Coombs          Grade B Organic is the best I've ever had, full of rich taste and minerals!"
     },
-  ....
    ```
