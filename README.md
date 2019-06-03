@@ -25,8 +25,8 @@ python manage.py get_small_sample --input_file=assets/foods.txt
 ```
 Possible Options:
 * input_file(required): Path of file for foods reviews data.(Default: assets/foods.txt)
-* output_file: Path of file for small sample  dataset.(Default: assets/revies_data.json)
-* count: Size of sample data required.(Default: 100K)
+* output_file: Path of file for small sample  dataset.(Default: assets/reviews_data.json)
+* count: Size of sample data required.(Default: 100K, reduced:50k)
 10. Generate indexed data of sample dataset by using command:
 ```html
 python manage.py get_indexed_data --input_file=assets/reviews_data.json
