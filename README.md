@@ -2,7 +2,7 @@
 It is  a search engine to search gourmet food reviews data and return the top K
 reviews with respect to the given input query.
 
-# Stacks used
+# Frameworks used
 django, django restframework
 
 ## Dataset
