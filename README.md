@@ -3,7 +3,7 @@ It is  a search engine to search gourmet food reviews data and return the top K
 reviews with respect to the given input query.
 
 # Stacks used
-django, djangorestframework
+django, django restframework
 
 ## Dataset
 Use the dataset available at ​ [http://snap.stanford.edu/data/web​](http://snap.stanford.edu/data/web​) FineFoods.html​ .
